@@ -14,5 +14,5 @@ Given user is on login page
 When user enters username as "Admin"
 And user enters password as "admin123"
 And user clicks on Login button
-Then user gets the title of the home page
-And page title must be "OrangeHRM"
+And user gets the title of the page
+Then page title must be "OrangeHRM"
