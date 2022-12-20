@@ -19,7 +19,8 @@ public final class ConfigReader {
 
 		prop = new Properties();
 		try {
-			FileInputStream ip = new FileInputStream("./src/test/resources/config/config.properties");
+			FileInputStream ip = new FileInputStream("/src/test/resources/config/config.properties");
+            //cucumber/src/test/resources/config/config.properties
 			prop.load(ip);
 
 		} catch (FileNotFoundException e) {
